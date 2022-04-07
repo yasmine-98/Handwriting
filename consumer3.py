@@ -1,3 +1,4 @@
+#spark-submit --packages org.apache.spark:spark-streaming-kafka-0-8_2.11:2.3.0,com.datastax.spark:spark-cassandra-connector_2.11:2.3.0 consumer3.py
 import os
 #os.environ['PYSPARK_SUBMIT_ARGS'] = '--conf spark.ui.port=4040 --packages org.apache.spark:spark-streaming-kafka-0-8_2.11:2.3.0,com.datastax.spark:spark-cassandra-connector_2.11:2.3.0-M3 pyspark-shell'
 import time
